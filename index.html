@@ -22,6 +22,15 @@
   <link rel="shortcut icon" href="assets/img/logo-2.png" type="image/png">
 
   <!-- Fonts -->
+
+  <link rel="preload" href="assets/img/logo.png" as="image">
+  <link rel="preload" href="assets/img/02.png" as="image">
+  <link rel="preload" as="style" href="assets/css/main.css">
+  <link rel="preload" as="script" href="assets/js/main.js">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
@@ -48,11 +57,11 @@
 
       <a href="index.html" class="logo align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="Ritech Surveying Company Logo">
+        <img loading="lazy" src="assets/img/logo.png" alt="Ritech Surveying Company Logo">
 
         <!-- <h1 class="sitename">Ritech Survey</h1> -->
       </a>
-      <!-- <img  src="assets/img/logo.png" alt="" style="height: 75px; width: 200px;"> -->
+      <!-- <img loading="lazy"  src="assets/img/logo.png" alt="" style="height: 75px; width: 200px;"> -->
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
@@ -372,7 +381,7 @@
             <p>Our priority is to understand the survey needs of clients before proceeding with any project. This
               ensures that the information and advice we provide achieves successful results in the shortest
               possible time and at an effective cost.</p>
-            <a href="#credential" class="read-more"><span>View More </span><i class="bi bi-arrow-right"></i></a>
+            <a href="credential.html" class="read-more"><span>View More </span><i class="bi bi-arrow-right"></i></a>
           </div>
 
         </div>
@@ -381,9 +390,9 @@
 
     </section><!-- /Credential Section -->
 
-   <!--    <section class="our-webcoderskull padding-lg">
+      <!-- <section class="our-webcoderskull padding-lg">
         <div class="container">
-         
+        
           <div class="container section-title" data-aos="fade-up">
             <h2>Our Team</h2>
             <p>With deep industry knowledge and a commitment to precision, we deliver outstanding results on every
@@ -391,17 +400,17 @@
           </div>
 
           <ul class="row">
-            <li class="col-12 col-md-6 col-lg-6">
+            <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="/assets/Teams/1.jpg" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="/assets/Teams/1.jpg" class="img-responsive" alt=""></figure>
                 <h3><a href="http://www.webcoderskull.com/">Riyas Ali PJ</a></h3>
                 <p>Managing Director</p>
 
               </div>
             </li>
-            <li class="col-12 col-md-6 col-lg-6">
+            <li class="col-12 col-md-5 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
                 <h3><a href="#">Abdul Khader AA</a></h3>
                 <p>Highway Engineer</p>
                 <ul class="follow-us clearfix">
@@ -411,9 +420,9 @@
                 </ul>
               </div>
             </li>
-            <li class="col-12 col-md-6 col-lg-4">
+            <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
                 <h3><a href="http://www.webcoderskull.com/">Abdu Rahman</a></h3>
                 <p>Managing Partner</p>
                 <ul class="follow-us clearfix">
@@ -423,9 +432,9 @@
                 </ul>
               </div>
             </li>
-            <li class="col-12 col-md-6 col-lg-4">
+            <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
                 <h3><a href="http://www.webcoderskull.com/">Sudheesh VP</a></h3>
                 <p>Managing Partner</p>
                 <ul class="follow-us clearfix">
@@ -435,9 +444,9 @@
                 </ul>
               </div>
             </li>
-            <li class="col-12 col-md-6 col-lg-4">
+            <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
                 <h3><a href="http://www.webcoderskull.com/">Vipin</a></h3>
                 <p>Managing Partner</p>
                 <ul class="follow-us clearfix">
@@ -450,8 +459,7 @@
           </ul>
         </div>
       </section> -->
-
-       <section class="our-webcoderskull padding-lg">
+      <section class="our-webcoderskull padding-lg">
         <div class="container">
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
@@ -463,7 +471,7 @@
           <ul class="row">
             <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="1.jpg" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="/assets/Teams/1.jpg" class="img-responsive" alt=""></figure>
                 <h3><a href="#">Riyas Ali PJ</a></h3>
                 <p>Managing Director</p>
               </div>
@@ -471,7 +479,7 @@
       
             <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="5.jpeg" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
                 <h3><a href="#">Abdul Khader AA</a></h3>
                 <p>Highway Engineer</p>
                 <ul class="follow-us clearfix">
@@ -484,7 +492,7 @@
       
             <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="3.jpeg" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
                 <h3><a href="#">Abdu Rahman</a></h3>
                 <p>Managing Partner</p>
                 <ul class="follow-us clearfix">
@@ -500,7 +508,7 @@
           <ul class="row justify-content-center">
             <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="2.jpg" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
                 <h3><a href="#">Sudheesh VP</a></h3>
                 <p>Managing Partner</p>
                 <ul class="follow-us clearfix">
@@ -513,7 +521,7 @@
       
             <li class="col-12 col-md-4 col-lg-4">
               <div class="cnt-block equal-hight" style="max-height: 280px;">
-                <figure><img src="4.jpg" class="img-responsive" alt=""></figure>
+                <figure><img loading="lazy" src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
                 <h3><a href="#">Vipin</a></h3>
                 <p>Managing Partner</p>
                 <ul class="follow-us clearfix">
@@ -526,6 +534,7 @@
           </ul>
         </div>
       </section>
+      
      
     </section><!-- /Services Section -->
     <!-- Contact Section -->
@@ -590,7 +599,7 @@
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
 
-      <img src="assets/img/20250526_123726.png" alt="">
+      <img loading="lazy" src="assets/img/20250526_123726.png" alt="">
 
       <div class="container">
 
@@ -624,7 +633,7 @@
           <div class="col-xl-6 col-md-6 partners-logo">
             <div class="partners-inner">
               <a href="http://zeitnahsurvey.com/">
-                <img src="zeitnah.jpg" class="img-fluid" alt="Zeitnah Survey">
+                <img loading="lazy" src="zeitnah.jpg" class="img-fluid" alt="Zeitnah Survey">
               </a>
               <div class="partners-info">
                 <h4>Zeitnah Survey</h4>
@@ -637,7 +646,7 @@
           <div class="col-xl-6 col-md-6 partners-logo">
             <div class="partners-inner">
               <a href="https://lebami.in/">
-                <img src="LB.jpg" class="img-fluid" alt="Lebami India">
+                <img loading="lazy" src="LB.jpg" class="img-fluid" alt="Lebami India">
               </a>
               <div class="client-info">
                 <h4>Lebami Builders & Developers</h4>
@@ -650,7 +659,7 @@
           <div class="col-xl-6 col-md-6 partners-logo">
             <div class="partners-inner">
               <a href="#">
-                <img src="LR.jpg" class="img-fluid" alt="Lebami Retail">
+                <img loading="lazy" src="LR.jpg" class="img-fluid" alt="Lebami Retail">
               </a>
               <div class="partners-info">
                 <h4>Lebami Realtors</h4>
@@ -663,7 +672,7 @@
           <div class="col-xl-6 col-md-6 partners-logo">
             <div class="partners-inner">
               <a href="https://qa.lebami.com/">
-                <img src="LQ.jpg" class="img-fluid" alt="Lebami QA">
+                <img loading="lazy" src="LQ.jpg" class="img-fluid" alt="Lebami QA">
               </a>
               <div class="client-info">
                 <h4>Lebami Qater</h4>
@@ -693,7 +702,7 @@
       <div class="col-xl-6 col-md-6 partners-logo">
         <div class="partners-inner">
           <a href="http://zeitnahsurvey.com/" target="_blank">
-            <img src="zeitnah.jpg" class="img-fluid" alt="Zeitnah Survey">
+            <img loading="lazy" src="zeitnah.jpg" class="img-fluid" alt="Zeitnah Survey">
           </a>
           <div class="partners-info">
             <h4>Zeitnah Survey</h4>
@@ -706,7 +715,7 @@
       <div class="col-xl-6 col-md-6 partners-logo">
         <div class="partners-inner">
           <a href="https://lebami.in/" target="_blank">
-            <img src="LB.jpg" class="img-fluid" alt="Lebami India">
+            <img loading="lazy" src="LB.jpg" class="img-fluid" alt="Lebami India">
           </a>
           <div class="partners-info">
             <h4>Lebami Builders & Developers</h4>
@@ -719,7 +728,7 @@
       <!-- <div class="col-xl-6 col-md-6 partners-logo">
         <div class="partners-inner">
           <a href="#" target="_blank">
-            <img src="LR.jpg" class="img-fluid" alt="Lebami Realtors">
+            <img loading="lazy" src="LR.jpg" class="img-fluid" alt="Lebami Realtors">
           </a>
           <div class="partners-info">
             <h4>Lebami Realtors</h4>
@@ -732,7 +741,7 @@
       <!-- <div class="col-xl-6 col-md-6 partners-logo">
         <div class="partners-inner">
           <a href="https://qa.lebami.com/" target="_blank">
-            <img src="LQ.jpg" class="img-fluid" alt="Lebami Qatar">
+            <img loading="lazy" src="LQ.jpg" class="img-fluid" alt="Lebami Qatar">
           </a>
           <div class="partners-info">
             <h4>Lebami Qatar</h4>
@@ -760,52 +769,52 @@
         <div class="row g-0 clients-wrap">
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="KIIFB.webp" class="img-fluid" alt="">
+            <img loading="lazy" src="KIIFB.webp" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="Indian Railway.gif" class="img-fluid" alt="">
+            <img loading="lazy" src="Indian Railway.gif" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="KWA.png" class="img-fluid" alt="">
+            <img loading="lazy" src="KWA.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="PWD.png" class="img-fluid" alt="">
+            <img loading="lazy" src="PWD.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="KRFB.jpeg" class="img-fluid" alt="">
+            <img loading="lazy" src="KRFB.jpeg" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="LSGD.png" class="img-fluid" alt="">
+            <img loading="lazy" src="LSGD.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="CMD.png" class="img-fluid" alt="" style="background-color: #138d97;">
+            <img loading="lazy" src="CMD.png" class="img-fluid" alt="" style="background-color: #138d97;">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="BAAB.png" class="img-fluid" alt="">
+            <img loading="lazy" src="BAAB.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="PKS.png" class="img-fluid" alt="">
+            <img loading="lazy" src="PKS.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="Midland.jpeg" class="img-fluid" alt="">
+            <img loading="lazy" src="Midland.jpeg" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="Irrigation Kerala.png" class="img-fluid" alt="">
+            <img loading="lazy" src="Irrigation Kerala.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-4 client-logo">
-            <img src="KSEB.png" class="img-fluid" alt="">
+            <img loading="lazy" src="KSEB.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
         </div>
@@ -817,7 +826,7 @@
     <!-- Stats Section -->
     <section id="stats" class="stats section dark-background">
 
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+      <img loading="lazy" src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
 
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
@@ -886,7 +895,7 @@
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-4 col-sm-4 Image-gallery-item isotope-item filter-app">
-              <img src="assets/img/Image_Gallery/ 2.jpeg" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/Image_Gallery/ 2.jpeg" class="img-fluid" alt="">
               <div class="Image-gallery-info">
 
                 <a href="assets/img/Image_Gallery/ 2.jpeg" data-gallery="Image-gallery-gallery-app"
@@ -896,7 +905,7 @@
             </div><!-- End Image-gallery Item -->
 
             <div class="col-lg-4 col-md-4 col-sm-4 Image-gallery-item isotope-item filter-product">
-              <img src="assets/img/Image_Gallery/3.jpeg" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/Image_Gallery/3.jpeg" class="img-fluid" alt="">
               <div class="Image-gallery-info">
 
                 <a href="assets/img/Image_Gallery/3.jpeg" data-gallery="Image-gallery-gallery-product"
@@ -906,7 +915,7 @@
             </div><!-- End Image-gallery Item -->
 
             <div class="col-lg-4 col-md-4 col-sm-4  Image-gallery-item isotope-item filter-branding">
-              <img src="assets/img/Image_Gallery/4.jpeg" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/Image_Gallery/4.jpeg" class="img-fluid" alt="">
               <div class="Image-gallery-info">
 
                 <a href="assets/img/Image_Gallery/4.jpeg" data-gallery="Image-gallery-gallery-branding"
@@ -1032,7 +1041,7 @@
   <footer id="footer" class="footer dark-background">
     <div class="container">
 
-      <img style="max-height: 80px;" src="assets/img/logo.png" alt="">
+      <img loading="lazy" style="max-height: 80px;" src="assets/img/logo.png" alt="">
       <br>
       <p class="mt-3">Ritech Surveying Engineering LLP is a leading engineering survey company in Kerala, delivering
         precise and innovative solutions since 2010.</p>
@@ -1068,21 +1077,18 @@
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
-  <!-- <div id="preloader"></div> -->
-
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/email-form/validate.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" defer></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 
 </body>
 
