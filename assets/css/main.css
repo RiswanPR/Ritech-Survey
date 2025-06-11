@@ -833,9 +833,9 @@ section,
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+   .hero h2 {
     font-size: 32px;
-    line-height: 36px;
+    width: 50vh;
   }
 
   .hero p {
